@@ -1,1 +1,1 @@
-##This Repo is only used for [gitalk](https://github.com/gitalk/gitalk) issues
+This Repo is only used for [gitalk](https://github.com/gitalk/gitalk) issues
