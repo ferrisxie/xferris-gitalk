@@ -227,11 +227,6 @@ h1 {
 h2 {
     font-size: 3.6rem;
 }
-h2:after{
-    content: ' ';
-    display: block;
-    border: 0.5px solid #eee;
-}
 h3 {
     font-size: 3rem;
 }
@@ -1050,6 +1045,7 @@ body:not(.page-template) .post-title {
 .post-title a {
     font-size: 0.9em;
     text-decoration: none;
+    color: #333;
 }
 
 .post-excerpt p {
@@ -1217,7 +1213,11 @@ body:not(.page-template) .post-title {
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
 }
-
+.post-content h2:after{
+    content: ' ';
+    display: block;
+    border: 0.5px solid #eee;
+}
 .footnotes {
     font-style: italic;
     font-size: 1.3rem;
